@@ -8,11 +8,22 @@ int main()
    unsigned long long factorial=1;
     printf("pleas enter the number :");
     scanf("%d",&num_1);
-    for(i=num_1;i>0;i--)
+    if(num_1 >0)
     {
-        factorial*=i;
+        for(i=num_1;i>0;i--)
+        {
+            factorial*=i;
+        }
+        printf("\nfactorial= %i\n",factorial);
     }
-    printf("\nfactorial= %i\n",factorial);
+    else
+    {
+        printf("\nerror error !! \n");
+        printf("\please enter positive number not negative or zero \n");
+
+
+
+    }
 
 
     return 0;
