@@ -4,14 +4,14 @@
 int main()
 {
     int num_1=0;
-    int num_2=0;
+    int i=0;
     int sum=0;
-    printf("pleas enter two numbers to sum\n");
-    printf("enter the first number :");
+    printf("pleas enter the number :");
     scanf("%d",&num_1);
-    printf("enter the second number :");
-    scanf("%d",&num_2);
-    sum= num_1 + num_2 ;
+    for(i=num_1;i>0;i--)
+    {
+        sum+=i;
+    }
     printf("\n sum = %i\n",sum);
 
 
